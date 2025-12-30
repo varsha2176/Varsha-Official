@@ -3184,7 +3184,7 @@
             <span class="tech-badge">Docker</span>
             <span class="tech-badge">REST API</span>
           </div>
-          <button class="view-details-btn" onclick="openProjectModal('URL Shortener (FastAPI)')">View Details</button>
+          <button class="view-details-btn" onclick="openProjectModal('urlshortener')">View Details</button>
         </div>
         
         <div class="project-card">
@@ -3703,6 +3703,35 @@
           { value: '50%', label: 'Reduced Counterfeit Risk' },
           { value: '3 Sec', label: 'Verification Time' },
           { value: '100%', label: 'Transparency' }
+        ]
+      }, 
+      urlshortener: {
+        title: 'URL Shortener (FastAPI)',
+        subtitle: 'FastAPI-Powered Redirect Engine',
+        tech: ['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'REST API'],
+        overview: 'A scalable and high-performance URL shortening service built with FastAPI, designed for speed, reliability, and analytics. The platform allows users to generate short URLs, track usage metrics, and handle high traffic efficiently using caching and async processing.',
+        features: [
+          'Short URL generation with custom aliases',
+          'Redirect handling with ultra-low latency',
+          'Click analytics and usage tracking',
+          'Rate limiting to prevent abuse',
+          'Redis caching for high performance',
+          'RESTful API with OpenAPI documentation',
+          'Dockerized deployment ready for production',
+        ],
+        technical: [
+          'FastAPI async backend for high concurrency',
+          'Redis for caching frequent redirects',
+          'PostgreSQL for persistent storage',
+          'Clean API architecture with Pydantic schemas',
+          'Docker for containerized deployment',
+          'Scalable and cloud-ready design',
+        ],
+        impact: [
+          { value: '<10 ms', label: 'Redirect Latency' },
+          { value: '1M+', label: 'Scalable Requests' },
+          { value: '100%', label: 'Rate-Limited Access' },
+          { value: '24/7', label: 'Production Uptime' }
         ]
       },
       
