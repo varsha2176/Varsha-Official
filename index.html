@@ -3174,7 +3174,7 @@
           <h3 class="project-title">URL Shortener (FastAPI)</h3>
           <p class="project-subtitle">FastAPI-Powered Redirect Engine</p>
           <p class="project-description">
-            High-performance URL shortening service with fast redirects, analytics, and scalable API design.
+            High-performance URL shortening service with ultra-fast redirects, analytics tracking, and scalable backend architecture
           </p>
           <div class="tech-stack">
             <span class="tech-badge">Python</span>
@@ -3225,7 +3225,7 @@
           <h3 class="project-title">Kubernetes HPA Demo</h3>
           <p class="project-subtitle">Auto-Scaling Cloud-Native Infrastructure</p>
           <p class="project-description">
-            Demonstration of Kubernetes Horizontal Pod Autoscaling based on CPU metrics under real-world load conditions.
+            Demonstration of Kubernetes Horizontal Pod Autoscaling with real-world load testing, high availability, and zero downtime.
           </p>
           <div class="tech-stack">
             <span class="tech-badge">Kubernetes</span>
@@ -3241,7 +3241,7 @@
           <h3 class="project-title">Real-Time Chat Application</h3>
           <p class="project-subtitle">Live Messaging Platform</p>
           <p class="project-description">
-            Real-time chat application enabling instant messaging with live updates using modern web technologies.
+            Real-time chat application enabling instant messaging with live updates and a modern, responsive user interface.
           </p>
           <div class="tech-stack">
             <span class="tech-badge">JavaScript</span>
@@ -3253,7 +3253,7 @@
         </div>
         
         <div class="project-card">
-          <h3 class="project-title">FastAPI MySQL DevOps</h3>
+          <h3 class="project-title">FastAPI + MySQL CI/CD DevOps</h3>
           <p class="project-subtitle">Production-Grade Backend System</p>
           <p class="project-description">
             Backend service showcasing FastAPI, MySQL integration, containerization, and DevOps best practices.
@@ -3263,7 +3263,7 @@
             <span class="tech-badge">FastAPI</span>
             <span class="tech-badge">MySQL</span>
             <span class="tech-badge">Docker</span>
-            <span class="tech-badge">DevOps</span>
+            <span class="tech-badge">Jenkins</span>
           </div>
           <button class="view-details-btn" onclick="openProjectModal('fastapimysql')">View Details</button>
         </div>
@@ -3294,6 +3294,7 @@
           </p>
           <div class="tech-stack">
             <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">Next.js</span>
             <span class="tech-badge">LLMs</span>
             <span class="tech-badge">Vector Search</span>
             <span class="tech-badge">RAG</span>
@@ -3336,14 +3337,16 @@
 
         <div class="project-card">
           <h3 class="project-title">GestureVerse (JS)</h3>
-          <p class="project-subtitle">Gesture-Based Interaction System</p>
+          <p class="project-subtitle">Gesture-Driven Visual Effects Engine</p>
           <p class="project-description">
-            Web-based gesture recognition system enabling intuitive human–computer interaction in real time.
+            A browser-based gesture recognition system that uses hand movements to control real-time visual effects through MediaPipe and WebGL.
           </p>
           <div class="tech-stack">
-            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">MediaPipe</span>
+            <span class="tech-badge">WebGL</span>
+            <span class="tech-badge">Three.js</span>
             <span class="tech-badge">Computer Vision</span>
-            <span class="tech-badge">Web Technologies</span>
           </div>
           <button class="view-details-btn" onclick="openProjectModal('gestureversejs')">View Details</button>
         </div>
@@ -3843,23 +3846,27 @@
         title: 'URL Shortener (FastAPI)',
         subtitle: 'FastAPI-Powered Redirect Engine',
         tech: ['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'REST API'],
-        overview: 'A scalable and high-performance URL shortening service built with FastAPI, designed for speed, reliability, and analytics. The platform allows users to generate short URLs, track usage metrics, and handle high traffic efficiently using caching and async processing.',
+        overview: 'A production-grade URL shortening service built using FastAPI, designed for speed, scalability, and reliability. The system supports short URL generation, real-time analytics, secure access control, and high-traffic handling using Redis caching and rate-limiting middleware. The project follows a clean modular architecture with separate routers, middleware, and database layers, making it suitable for real-world deployment and cloud scaling.',
         features: [
           'Short URL generation with custom aliases',
-          'Redirect handling with ultra-low latency',
-          'Click analytics and usage tracking',
-          'Rate limiting to prevent abuse',
-          'Redis caching for high performance',
-          'RESTful API with OpenAPI documentation',
-          'Dockerized deployment ready for production',
+          'Ultra-low latency redirect handling',
+          'Click analytics and access tracking',
+          'Redis-based rate limiting middleware',
+          'Authentication-protected endpoints',
+          'Modular RESTful API architecture',
+          'OpenAPI-documented endpoints',
+          'Dockerized backend with environment configuration',  
         ],
         technical: [
           'FastAPI async backend for high concurrency',
-          'Redis for caching frequent redirects',
-          'PostgreSQL for persistent storage',
-          'Clean API architecture with Pydantic schemas',
-          'Docker for containerized deployment',
-          'Scalable and cloud-ready design',
+          'Redis caching for fast redirects and rate limiting',
+          'PostgreSQL database with Alembic migrations',
+          'Middleware-based request throttling',
+          'Modular router design for URLs, analytics, and auth',
+          'Pydantic schemas for validation and serialization',
+          'Docker & Docker Compose for deployment',
+          'Vercel-ready configuration for frontend integration',
+          
         ],
         impact: [
           { value: '<10 ms', label: 'Redirect Latency' },
@@ -3905,21 +3912,23 @@
         title: 'AI Resume Analyzer',
         subtitle: 'AI-Powered Resume Screening System',
         tech: ['Python', 'FastAPI', 'NLP', 'Machine Learning', 'REST API'],
-        overview: 'An AI-driven resume analysis platform that extracts skills, matches resumes with job descriptions, and ranks candidates using NLP and ML techniques.',
+        overview: 'An AI-driven resume analysis and job matching platform designed to automate candidate screening for recruiters. The system parses resumes and job descriptions, extracts relevant skills and experience, and computes intelligent match scores using NLP and machine learning techniques. The platform significantly reduces manual screening effort while improving accuracy and fairness in candidate evaluation.',
         features: [
-          'Resume parsing and text extraction',
-          'Skill identification using NLP',
-          'Resume–job description matching',
-          'Candidate relevance scoring',
-          'REST API for frontend integration',
+          'Resume parsing and structured data extraction',
+          'Job description analysis and skill extraction',
+          'AI-based resume–job matching',
+          'Candidate relevance and match scoring',
+          'Skill gap identification',
           'Automated candidate ranking',
+          'REST API support for frontend integration',
         ],
         technical: [
-          'NLP-based text preprocessing',
+          'NLP-based text preprocessing and cleaning',
           'Semantic and keyword matching algorithms',
           'FastAPI backend for scalable APIs',
+          'Machine learning models for similarity scoring',
           'Modular ML pipeline design',
-          'JSON-based API responses',
+          'JSON-based RESTful API responses',
         ],
         impact: [
           { value: '70%', label: 'Screening Time Reduced' },
@@ -3933,25 +3942,29 @@
         title: 'Kubernetes HPA Demo',
         subtitle: 'Auto-Scaling Cloud-Native Infrastructure',
         tech: ['Kubernetes', 'Docker', 'HPA', 'DevOps', 'Shell'],
-        overview: 'A practical Kubernetes project demonstrating Horizontal Pod Autoscaling based on CPU utilization under real-world load.',
+        overview: 'A hands-on cloud-native project showcasing Kubernetes Horizontal Pod Autoscaling (HPA) using CPU and memory metrics. The application is containerized using Docker and deployed on a local Kubernetes cluster (Minikube), demonstrating real-world auto-scaling, load balancing, and high availability under traffic spikes. The project simulates production-grade Kubernetes behavior, including health checks, resource limits, and dynamic scaling without downtime.',
         features: [
-          'Kubernetes Deployment and Services',
-          'Horizontal Pod Autoscaler configuration',
-          'CPU-based auto-scaling',
-          'Load testing and metrics monitoring',
-          'Infrastructure-as-Code using YAML',
+          'Containerized Node.js application deployment',
+          'Kubernetes Deployment with multiple replicas',
+          'Horizontal Pod Autoscaler (HPA) configuration',
+          'CPU and memory-based auto-scaling',
+          'Load balancing across multiple pods',
+          'Health checks with liveness and readiness probes',
+          'Zero-downtime scaling during load tests',
+          'Infrastructure-as-Code using YAML manifests',
         ],
         technical: [
-          'Kubernetes-native auto-scaling',
-          'Metrics Server integration',
+          'Kubernetes-native Horizontal Pod Autoscaling',
+          'Metrics Server integration for real-time monitoring',
           'Dockerized application workloads',
-          'YAML-based resource definitions',
-          'Production-style DevOps workflow',
+          'Resource requests and limits for fair scheduling',
+          'YAML-based deployment, service, and HPA configs',
+          'Production-style DevOps workflow using kubectl',
+          'Minikube-based local Kubernetes cluster',
         ],
         impact: [
           { value: 'Auto', label: 'Dynamic Scaling' },
           { value: '3x', label: 'Traffic Handling' },
-          { value: '0 Downtime', label: 'Service Availability' },
           { value: '100%', label: 'Cloud-Native' }
         ]
       },
@@ -3960,20 +3973,22 @@
         title: 'Real-Time Chat Application',
         subtitle: 'Live Messaging Platform',
         tech: ['JavaScript', 'Next.js', 'WebSockets', 'Node.js'],
-        overview: 'A real-time chat application enabling instant messaging with live updates and responsive UI using modern web technologies.',
+        overview: 'A real-time chat application built using Next.js that enables instant messaging with live updates and seamless user interaction. The application supports authentication, real-time message delivery, and dynamic UI updates using modern web technologies. The project demonstrates real-time communication patterns, scalable frontend architecture, and clean component-based design suitable for production use.',
         features: [
-          'Real-time messaging via WebSockets',
-          'Live user updates',
-          'Responsive UI design',
-          'Session-based communication',
-          'Scalable real-time architecture',
+          'Real-time messaging with live updates',
+          'User authentication and session handling',
+          'Instant message synchronization',
+          'Responsive UI with Tailwind CSS',
+          'Component-based chat interface',
+          'Scalable real-time communication flow',
         ],
         technical: [
           'WebSocket-based real-time communication',
-          'Next.js frontend architecture',
-          'Event-driven message handling',
-          'Component-based UI design',
-          'Optimized state management',
+          'Next.js App Router architecture',
+          'Firebase configuration for real-time data handling',
+          'Event-driven message updates',
+          'Modular React components for chat UI',
+          'Optimized state management using context',
         ],
         impact: [
           { value: '<1s', label: 'Message Latency' },
@@ -3985,53 +4000,66 @@
       
       fastapimysql: {
         title: 'FastAPI MySQL DevOps',
-        subtitle: 'Production-Grade Backend System',
-        tech: ['Python', 'FastAPI', 'MySQL', 'Docker', 'DevOps'],
-        overview: 'A backend service demonstrating FastAPI development with MySQL integration, containerization, and DevOps best practices.',
+        subtitle: 'Containerized Backend with CI/CD Pipeline',
+        tech: ['Python', 'FastAPI', 'MySQL', 'Docker', 'Jenkins'],
+        overview: 'A production-grade backend system built using FastAPI and MySQL, fully containerized with Docker and orchestrated using Docker Compose, with a CI/CD pipeline implemented using Jenkins for automated builds and deployments.',
         features: [
-          'RESTful API development',
-          'MySQL database integration',
-          'Environment-based configuration',
-          'Dockerized services',
-          'Production-ready project structure',
+          'RESTful API development using FastAPI',
+          'MySQL database integration with initialization scripts',
+          'Docker containerization for backend and database',
+          'Docker Compose orchestration for multi-service setup',
+          'Jenkins CI/CD pipeline for automated build and deployment',
+          'Health check and database status endpoints',
+          'Environment-based configuration and error handling',
         ],
         technical: [
-          'FastAPI backend architecture',
-          'Relational database schema design',
-          'Docker Compose orchestration',
-          'Config separation for environments',
-          'Scalable backend design',
+          'FastAPI backend architecture with modular design',
+          'Relational database schema using MySQL',
+          'Dockerized services with isolated networking',
+          'Jenkins pipeline for CI/CD automation',
+          'Retry logic for database connections',
+          'Production-ready API structure',
+        ],
+        cicdimplementation:[
+          'Jenkins pipeline configured using Jenkinsfile',
+          'Automated build and container deployment on code changes',
+          'Docker Compose used within Jenkins pipeline',
+          'Continuous Integration workflow established',
         ],
         impact: [
-          { value: '100%', label: 'Containerized' },
+          { value: '100%', label: 'Containerized  services' },
+          { value: 'Automated', label: 'CI/CD Pipeline' },
           { value: 'High', label: 'API Performance' },
-          { value: 'Secure', label: 'DB Integration' },
-          { value: 'Production', label: 'Deployment Ready' }
+          { value: 'Secure', label: 'Backend Architecture' },
+          { value: 'Production-Ready', label: 'Codebase' }
         ]
       },
       
       gestureversejs: {
         title: 'GestureVerse (JS)',
-        subtitle: 'Gesture-Based Interaction System',
-        tech: ['TypeScript', 'Computer Vision', 'Web Technologies'],
-        overview: 'A web-based gesture recognition system enabling intuitive human–computer interaction through real-time gesture detection.',
+        subtitle: 'Gesture-Driven Visual Effects Engine',
+        tech: ['JavaScript', 'MediaPipe',  'WebGL', 'Three.js', 'Computer Vision'],
+        overview: 'GestureVerse is a browser-based interactive system that uses hand gesture recognition to control real-time visual effects. Built with MediaPipe for hand tracking and WebGL / Three.js for rendering, the project transforms hand movements into immersive digital visuals.',
         features: [
-          'Real-time gesture detection',
-          'Browser-based interaction',
-          'Interactive visual feedback',
-          'Extensible gesture mappings',
-          'Smooth user experience',
+          'Real-time hand gesture recognition via webcam',
+          'Multiple gesture-to-effect mappings',
+          'GPU-accelerated visual effects',
+          'Browser-based interaction (no external hardware)',
+          'Smooth, low-latency visual rendering',
+          'Easily extensible gesture system',
         ],
         technical: [
-          'TypeScript-based frontend logic',
-          'Real-time event handling',
-          'Gesture processing pipeline',
-          'Modular interaction components',
+          'MediaPipe hand landmark detection',
+          'Real-time gesture classification',
+          'WebGL & Three.js powered visual effects',
+          'Event-driven gesture processing pipeline',
+          'Optimized rendering for smooth performance',
+          'Vercel-ready deployment',
         ],
         impact: [
-          { value: 'Real-Time', label: 'Gesture Detection' },
-          { value: 'High', label: 'Interaction Accuracy' },
-          { value: 'Web', label: 'Platform Support' },
+          { value: 'Real-Time', label: 'Gesture Interaction' },
+          { value: 'High', label: 'Visual Responsiveness' },
+          { value: 'Web based', label: 'Platform Support' },
           { value: 'Immersive', label: 'User Experience' }
         ]
       },
@@ -4039,26 +4067,29 @@
       ragassistant: {
         title: 'RAG Assistant',
         subtitle: 'Retrieval-Augmented AI System',
-        tech: ['TypeScript', 'LLMs', 'Vector Search', 'RAG'],
-        overview: 'A retrieval-augmented AI assistant that enhances LLM responses by grounding them in relevant documents and knowledge sources.',
+        tech: ['TypeScript', 'Next.js','LLMs', 'Vector Search', 'RAG'],
+        overview: 'A retrieval-augmented AI assistant built with Next.js and TypeScript that enhances LLM responses by retrieving relevant information from a local knowledge base, ensuring context-aware and grounded answers.',
         features: [
           'Context-aware AI responses',
-          'Vector-based document retrieval',
-          'LLM integration',
-          'Knowledge-grounded answers',
-          'Scalable AI architecture',
+          'Retrieval-augmented generation (RAG) pipeline',
+          'Knowledge ingestion from structured documents',
+          'Vector-based similarity search',
+          'LLM-powered response generation',
+          'Modular and scalable architecture',
         ],
         technical: [
-          'RAG pipeline implementation',
-          'Embedding-based similarity search',
-          'TypeScript backend integration',
-          'Modular AI components',
+          'RAG pipeline implemented in TypeScript',
+          'Embedding-based document retrieval',
+          'Next.js App Router with API routes',
+          'Modular AI logic (rag.ts)',
+          'Clean component-based UI',
+          'Secure environment variable handling',
         ],
         impact: [
           { value: 'Accurate', label: 'Contextual Answers' },
           { value: 'Smart', label: 'Knowledge Retrieval' },
-          { value: 'Scalable', label: 'AI Architecture' },
-          { value: 'Reliable', label: 'Response Quality' }
+          { value: 'Scalable', label: 'RAG Architecture' },
+          { value: 'Reliable', label: 'AI Responses' }
         ]
       },
 
