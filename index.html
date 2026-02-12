@@ -3187,6 +3187,26 @@
           <button class="view-details-btn" onclick="openProjectModal('urlshortener')">View Details</button>
         </div>
         <div class="project-card">
+          <h3 class="project-title">SecureDoc Verifier</h3>
+          <p class="project-subtitle">AI-Powered Document Authentication & Blockchain Integrity System</p>
+          <p class="project-description">
+            Advanced fraud detection platform that verifies digital documents using OCR analysis, tamper detection algorithms, and blockchain-backed hash validation.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">FastAPI</span>
+            <span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">Redis</span>
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">Solidity</span>
+            <span class="tech-badge">OpenCV</span>
+            <span class="tech-badge">Tesseract OCR</span>
+            <span class="tech-badge">JWT Auth</span>
+            <span class="tech-badge">REST API</span> 
+          </div>
+          <button class="view-details-btn" onclick="openProjectModal('securedocverifier')">View Details</button>
+        </div>
+        <div class="project-card">
           <h3 class="project-title">RJ Boutique (Next.js)</h3>
           <p class="project-subtitle">Luxury Custom Designer Wear Platform</p>
           <p class="project-description">
@@ -3892,6 +3912,46 @@
           { value: '24/7', label: 'Production Uptime' }
         ]
       },
+      securedocverifier: {
+        title: 'SecureDoc Verifier',
+        subtitle: 'AI-Powered Document Authentication & Blockchain Integrity System',
+        tech: ['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'REST API','Solidity','OpenCV','Tesseract OCR','JWT Auth'],
+        overview: 'SecureDoc Verifier is a production-grade document authentication platform that detects tampered or forged documents using AI-powered analysis and cryptographic verification. The system enables users to upload identity documents, certificates, and official records, automatically extracts and analyzes content using OCR and image forensics, generates a fraud risk score, and securely stores a SHA-256 cryptographic hash on a blockchain network to ensure tamper-proof verification. Built with a clean modular backend architecture featuring separate routers, service layers, authentication mechanisms, and blockchain integration, the platform is designed for scalable, enterprise-ready deployment.',
+        features: [
+          'Multi-role authentication (User / Admin / Verifier)',
+          'JWT-based secure access control',
+          'AI-powered fraud detection with risk scoring',
+          'OCR-based text extraction (Tesseract)',
+          'Image tampering detection using OpenCV',
+          'SHA-256 document hashing',
+          'Blockchain logging via Solidity smart contract',
+          'Verification API for third-party companies', 
+          'Admin dashboard with document monitoring',
+          'Email notifications for verification status',
+          'Dockerized microservice architecture',
+        ],
+        technical: [
+          'FastAPI async backend for high concurrency',
+          'Service-layer architecture (clean separation of concerns)',
+          'Advanced fraud detection module with: OCR validation, Metadata inspection, Tamper artifact detection, Structured fraud scoring logic',
+          'Solidity smart contract for immutable hash storage',
+          'Ganache-based local blockchain testing',
+          'PostgreSQL relational schema with role-based models',
+          'Redis integration for caching and rate limiting',
+          'Pydantic validation schemas',
+          'Secure password hashing (bcrypt)',
+          'Environment-based configuration (.env)',
+          'Docker & Docker Compose multi-service setup',
+          
+        ],
+        impact: [
+          { value: '< 2 sec', label: 'AI Fraud Analysis Time' },
+          { value: '256-bit', label: 'SHA-256 Blockchain Hashing' },
+          { value: '100%', label: 'Role-Based Secure Access' },
+          { value: 'Real-Time', label: 'Tamper Detection Engine' }
+        ]
+      },
+
 
       rjboutique: {
         title: 'RJ Boutique (Next.js)',
