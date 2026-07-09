@@ -3090,7 +3090,7 @@
 
           <div class="counter-stats">
             <div class="stat-item">
-              <span class="stat-number counter" data-target="8.23">8.23</span>
+              <span class="stat-number counter" data-target="8.42">8.42</span>
               <span class="stat-label">GPA/10</span>
             </div>
             <div class="stat-item">
@@ -4509,10 +4509,10 @@
           const updateCounter = () => {
             if (current < target) {
               current += increment;
-              counter.textContent = target === 8.23 ? current.toFixed(2) : Math.ceil(current);
+              counter.textContent = target === 8.42 ? current.toFixed(2) : Math.ceil(current);
               setTimeout(updateCounter, 20);
             } else {
-              counter.textContent = target === 8.23 ? target.toFixed(2) : target;
+              counter.textContent = target === 8.42 ? target.toFixed(2) : target;
             }
           };
 
